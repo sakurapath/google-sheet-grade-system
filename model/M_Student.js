@@ -1,10 +1,15 @@
 module.exports = class Student {
     constructor(std) {
         //Building the object with the student data
+        //Getting presence rate
         this.presenceRate = parseInt(std[2])
+        //Getting grade 1
         this.p1 = parseInt(std[3])
+        //Getting grade 2
         this.p2 = parseInt(std[4])
+        //Getting grade 3
         this.p3 = parseInt(std[5])
+        //Setting default required final exam mark value
         this.final = 0
     }
 
