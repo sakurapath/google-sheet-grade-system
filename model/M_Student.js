@@ -1,7 +1,7 @@
 module.exports = class Student {
     constructor(std) {
         //Building the object with the student data
-        //Getting presence rate
+        //Getting missing presence rate
         this.presenceRate = parseInt(std[2])
         //Getting grade 1
         this.p1 = parseInt(std[3])
